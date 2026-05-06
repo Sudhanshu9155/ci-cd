@@ -1,0 +1,7 @@
+sevices:
+  backend:
+    image: sudhanshu9155/backend-api:latest
+    container_name: backend-ci-cd
+    restart: always
+    ports:
+      - "3000:3000"
